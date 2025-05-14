@@ -1,7 +1,10 @@
 # Project Nebula: The RFO BASIC Runtime Engine
 
-<center>[![RFO BASIC Icon](https://github.com/getXzooted/Nebula/blob/3a35ff9c5a125f4adcec4431f1e7097bb72dcf2b/DATA/RFO%20Basic%20Icon.jpeg)](https://rfobasic.miraheze.org/wiki/Main_Page)</center> 
 
+[![RFO BASIC Icon](https://github.com/getXzooted/Nebula/blob/3a35ff9c5a125f4adcec4431f1e7097bb72dcf2b/DATA/RFO%20Basic%20Icon.jpeg)](https://rfobasic.miraheze.org/wiki/Main_Page)
+
+
+\
 **"From the stardust of RFO BASIC, new applications are born in the Nebula."**
 
 This is the Home of Project Nebula, a Runtime Environment written in and based on RFO BASIC! 
