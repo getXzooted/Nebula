@@ -1,6 +1,6 @@
 {
   "packageName": "rfoMM",
-  "version": "0.21",
+  "version": "0.10",
   "author": "J.J. (Project Nebula Team)",
   "license": "GPL-3.0-or-later",
   "classes": [
@@ -8,12 +8,7 @@
   ],
   "description": "Core Memory Manager pillar for the Project Nebula Runtime Environment. Provides abstracted memory management for RFO Basic data structures using string-based Memory Addresses (MM_ADDRESS$).",
   "files": [
-    "Source/rfoMM.bas",
-    "docs/FULL_DOCUMENTATION.pdf",
-    "docs/README.txt",
-    "docs/API_CHEAT_SHEET.pdf", 
-    "docs/CHANGELOG.md",
-    "tests/rfoMM_tests.bas",
+    "SOURCE/rfoMM.bas",
     "LICENSE.txt"
   ],
   "imports": [],
@@ -30,12 +25,12 @@
     "Library"
   ],
   "repository": {
-    "type": "github",
-    "url": "https://github.com/getXzooted/Nebula"
+    "type": "forum",
+    "url": "https://www.tapatalk.com/groups/rfobasic/viewtopic.php?f=10&t=6731&from_new_topic=1"
   },
-  "homepage":"https://github.com/getXzooted/Nebula/wiki",
+  "homepage":"https://www.tapatalk.com/groups/rfobasic/viewtopic.php?f=10&t=6731&from_new_topic=1",
   "bugs": {
-    "url": "https://github.com/getXzooted/Nebula/issues"
+    "url": "https://www.tapatalk.com/groups/rfobasic/viewtopic.php?f=10&t=6731&from_new_topic=1"
   },
   "compatibility": {
     "rfoBasicVersion": "1.91+",
