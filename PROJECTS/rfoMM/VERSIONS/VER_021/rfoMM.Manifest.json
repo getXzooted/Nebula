@@ -30,7 +30,7 @@
     "Library"
   ],
   "repository": {
-    "type": "forum",
+    "type": "github",
     "url": "https://github.com/getXzooted/Nebula"
   },
   "homepage":"https://github.com/getXzooted/Nebula/wiki",

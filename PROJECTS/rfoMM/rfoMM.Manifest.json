@@ -1,6 +1,6 @@
 {
   "packageName": "rfoMM",
-  "version": "0.20",
+  "version": "0.21",
   "author": "J.J. (Project Nebula Team)",
   "license": "GPL-3.0-or-later",
   "classes": [
@@ -30,12 +30,12 @@
     "Library"
   ],
   "repository": {
-    "type": "forum",
-    "url": "https://www.tapatalk.com/groups/rfobasic/viewtopic.php?f=10&t=6731&from_new_topic=1"
+    "type": "github",
+    "url": "https://github.com/getXzooted/Nebula"
   },
-  "homepage":"https://www.tapatalk.com/groups/rfobasic/viewtopic.php?f=10&t=6731&from_new_topic=1",
+  "homepage":"https://github.com/getXzooted/Nebula/wiki",
   "bugs": {
-    "url": "https://www.tapatalk.com/groups/rfobasic/viewtopic.php?f=10&t=6731&from_new_topic=1"
+    "url": "https://github.com/getXzooted/Nebula/issues"
   },
   "compatibility": {
     "rfoBasicVersion": "1.91+",
