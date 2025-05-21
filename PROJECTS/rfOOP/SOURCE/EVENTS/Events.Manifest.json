@@ -1,0 +1,34 @@
+{
+  "packageName": "Events",
+  "packageType": "Library",
+  "version": "0.20",
+  "author": "J.J. (Project Nebula Team)",
+  "license": "GPL-3.0-or-later",
+  "classes": [],
+  "description": "",
+  "files": [
+    "Source/EVENTS.bas",
+    "docs/FULL_DOCUMENTATION.pdf",
+    "docs/README.txt",
+    "docs/API_CHEAT_SHEET.pdf", 
+    "docs/CHANGELOG.md",
+    "tests/EVENTS_tests.bas",
+    "LICENSE.txt"
+  ],
+  "imports": [],
+  "keywords": [
+
+  ],
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/getXzooted/Nebula"
+  },
+  "homepage":"https://github.com/getXzooted/Nebula/wiki",
+  "bugs": {
+    "url": "https://github.com/getXzooted/Nebula/issues"
+  },
+  "compatibility": {
+    "rfoBasicVersion": "1.91+",
+    "androidApiLevel": "29+"
+  }
+}

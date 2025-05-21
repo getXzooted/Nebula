@@ -1,5 +1,5 @@
 {
-  "packageName": "This",
+  "packageName": "Classes",
   "packageType": "Library",
   "version": "0.20",
   "author": "J.J. (Project Nebula Team)",
@@ -7,12 +7,12 @@
   "classes": [],
   "description": "",
   "files": [
-    "Source/This.bas",
+    "Source/CLASSES.bas",
     "docs/FULL_DOCUMENTATION.pdf",
     "docs/README.txt",
     "docs/API_CHEAT_SHEET.pdf", 
     "docs/CHANGELOG.md",
-    "tests/This_tests.bas",
+    "tests/CLASSES_tests.bas",
     "LICENSE.txt"
   ],
   "imports": [],
