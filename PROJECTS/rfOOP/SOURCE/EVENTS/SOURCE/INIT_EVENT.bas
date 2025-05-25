@@ -23,16 +23,16 @@ FN.DEF INIT_EVENTS()
     
    EVENTS_OBJECT         = MM_CREATE("O") 
    
-   BUNDLE.PUT            TYPINGS,              "INDEX",    "P"
+   BUNDLE.PUT            TYPINGS,              "INDEX",    "MA"
    BUNDLE.PUT            TYPINGS,               "NAME",    "S"
    BUNDLE.PUT            TYPINGS,               "TYPE",    "S"
    BUNDLE.PUT            TYPINGS,           "SUB TYPE",    "S"
-   BUNDLE.PUT            TYPINGS,            "TYPINGS",    "B"
-   BUNDLE.PUT            TYPINGS,    "CLASS VARIABLES",    "B"
-   BUNDLE.PUT            TYPINGS,   "OBJECT VARIABLES",    "B"
-   BUNDLE.PUT            TYPINGS,             "EVENTS",    "SL"  
-   BUNDLE.PUT            TYPINGS,           "TRIGGERS",    "SL"
-   BUNDLE.PUT            TYPINGS,             "ERRORS",    "SL"
+   BUNDLE.PUT            TYPINGS,            "TYPINGS",    "MA"
+   BUNDLE.PUT            TYPINGS,    "CLASS VARIABLES",    "MA"
+   BUNDLE.PUT            TYPINGS,   "OBJECT VARIABLES",    "MA"
+   BUNDLE.PUT            TYPINGS,             "EVENTS",    "MA"  
+   BUNDLE.PUT            TYPINGS,           "TRIGGERS",    "MA"
+   BUNDLE.PUT            TYPINGS,             "ERRORS",    "MA"
    
    BUNDLE.PUT             EVENTS,              "INDEX",    EVENTS_OBJECT
    BUNDLE.PUT             EVENTS,               "NAME",    "EVENT HORIZON"
