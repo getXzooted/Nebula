@@ -1,0 +1,58 @@
+!>-------------------------------------------------------------------------------
+!!
+VER: 0.1
+LIB: PROPERTIES
+FUNCTION: PROPERTY_EXISTS$(CLASS, PROPERTY$)
+CHECKS IF (PROPERTY$) OF (CLASS)
+EXISTS RETURNS "TRUE" OR "FALSE"
+!!
+
+
+FN.DEF PROPERTY_EXISTS$(CLASS, PROPERTY$)
+
+   PROPERTIES = GET_PROPERTIES(CLASS)
+
+   LIST.SEARCH PROPERTIES, PROPERTY$, EXISTS
+
+   IF !EXISTS
+
+      FN.RTN "TRUE"
+   
+   ELSE
+
+      FN.RTN "FALSE"
+
+   END IF 
+
+FN.END
+
+
+!>-------------------------------------------------------------------------------
+!!
+VER: 0.1
+LIB: PROPERTIES
+FUNCTION: PROPERTY_EXISTS(CLASS, PROPERTY$)
+CHECKS IF (PROPERTY$) OF (CLASS) EXISTS 
+THEN RETURN 0 IF "FALSE" OR 1 IF "TRUE"
+!!
+
+
+FN.DEF PROPERTY_EXISTS(CLASS, PROPERTY$)
+
+   PROPERTIES = GET_PROPERTIES(CLASS)
+
+   LIST.SEARCH PROPERTIES, PROPERTY$, EXISTS
+
+   IF !EXISTS
+
+      FN.RTN 1
+   
+   ELSE
+
+      FN.RTN 0
+
+   END IF 
+
+FN.END
+
+
